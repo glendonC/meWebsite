@@ -62,6 +62,15 @@ body::before{
 a{
     text-decoration: none;
 }
+
+/*h1 is just for name (Glendon Chin) on Home Page */
+h1{
+    background-image: linear-gradient(to top, #4b0082 0%, #00008b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 h1,h2{
     font-weight: 600;
 }
