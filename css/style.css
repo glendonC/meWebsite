@@ -7,7 +7,7 @@
  Variables 
 */
 :root{
-    --main-color: #e02f6b;
+    --main-color: #e99f4c;
     --blue: #0000ff;
     --blue-dark: #18293c;
     --orange: #ffa500;
@@ -668,15 +668,20 @@ button{
     width: calc((100% / 3) - 30px);
     margin:0 15px 30px;
 }
-.portfolio-item-thumbnail{
+.portfolio-item-thumbnail {
     padding: 10px;
     background-color: var(--white-alpha-25);
-    border:1px solid var(--white-alpha-40);
+    border: 1px solid var(--white-alpha-40);
     border-radius: 10px;
+    height: 250px;  /* You can adjust this value based on your preference */
 }
-.portfolio-item-thumbnail img{
+
+.portfolio-item-thumbnail img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
+    display: block;
 }
 .portfolio-item h3{
     font-size: 20px;
